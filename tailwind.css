@@ -1,0 +1,48 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --caption1-emphasized-font-family: "SF Pro", Helvetica;
+  --caption1-emphasized-font-size: 13px;
+  --caption1-emphasized-font-style: normal;
+  --caption1-emphasized-font-weight: 500;
+  --caption1-emphasized-letter-spacing: 0px;
+  --caption1-emphasized-line-height: 1.5;
+  --caption1-regular-font-family: "SF Pro", Helvetica;
+  --caption1-regular-font-size: 13px;
+  --caption1-regular-font-style: normal;
+  --caption1-regular-font-weight: 400;
+  --caption1-regular-letter-spacing: 0px;
+  --caption1-regular-line-height: 1.5;
+  --headline-regular-font-family: "SF Pro", Helvetica;
+  --headline-regular-font-size: 16px;
+  --headline-regular-font-style: normal;
+  --headline-regular-font-weight: 700;
+  --headline-regular-letter-spacing: 0px;
+  --headline-regular-line-height: 1.5;
+  --light-primary: rgba(51, 51, 51, 1);
+  --light-secondary: rgba(102, 102, 102, 1);
+  --light-selected: rgba(255, 255, 255, 1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  min-height: 100vh;
+}
+
+.shadow-lg {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card-shadow {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+}
